@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #45046a;
+}
+hr{
+  border : dotted #251f44 6px;
+  border-bottom: none;
+  width: 4%;
+}
+a:hover{
+  color: #f7f2e7;
+}
+
+.copyright{
+  font-size: 0.7rem;
+}
+
+p{
+  color: #00334e;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h2, h3 {
+  color: #45046a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.yoga-image {
+  margin: 20px 0 0 50px;
+}
+
+.top-container,.bottom-container {
+  background-color: #efbbcf;
+  padding: 30px 0;
+}
+
+.middle-container {
+  background-color: #cbf6db;
+  padding: 30px 0;
+}
+.skill-row{
+  width: 50%;
+  text-align: left;
+  margin:50px auto 50px auto;
+}
+.Ethical-Hacker,.Programmer,.Data-Scientist,.Design-Development{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+	box-shadow: 0px 7px 10px -7px #276873;
+	background-color:#4b075c;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin-bottom: 30px;
+}
+.btn:hover {
+	background-color:#f5087a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+a{
+  color: #00334e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
